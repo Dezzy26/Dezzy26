@@ -1,38 +1,6 @@
-from pickle import load,dump
-from os import remove,rename
-import os
-import random
-import time
-print
-print
-print
-print
-print
-print "\t \t \t WELCOME TO DEZZY DIGITAL LIBRARY \t \t \t"
-print
-print
-print
-print
-print
-print
-print "\t \t \t \t \t \t \t PROJECT DONE BY:"IKPE DESTINY ATARE 
-print
-print
-print "\t \t \t \t \t \t \......... "
-print
-print "\t \t \t \t \t \t \t……….. "
-print
-print
-a=raw_input("PRESS ENTER TO CONTINUE:")
-a=str(a)
-if a.isalpha():
-    pass 
 class book:
-    def __init__(self,bno=" ",bname=" ",auname=" "):
-        self.bno=bno
-        self.bname=bname
-        self.auname=auname    
-    def create_book(self):
+    def __init__(self,
+		def create_book(self):
         print
         print "\t\t\t Creating Book Record \t\t\t"
         print
